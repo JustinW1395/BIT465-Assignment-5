@@ -39,19 +39,19 @@ To do this, do the following:
   2. add a Dog and Breed models to models.py
   3. migrate your database to include tables for Dog and Breed
   4. add two class-based API view controllers for handling Dog REST endpoints to controllers.py
-    - call one DogDetail and one DogList to conform to best practice nomenclature
-    - The DogDetail class should have three methods named get, put, delete
-    - The DogList class should have two methods named get and post
-    - refer to Chapter 2 of the recommended text or here for examples
+   - call one DogDetail and one DogList to conform to best practice nomenclature
+   - The DogDetail class should have three methods named get, put, delete
+   - The DogList class should have two methods named get and post
+   - refer to Chapter 2 of the recommended text or here for examples
   5. add two class-based API view controllers for handling Breed REST endpoints to controllers.py
-    - call one BreedDetail and one BreedList to conform to best practice nomenclature
-    - The BreedDetail class should have three methods named get, put, delete
-    - The BreedList class should have two methods named get and post
-    - refer to Chapter 2 of the recommended text or here for examples
+   - call one BreedDetail and one BreedList to conform to best practice nomenclature
+   - The BreedDetail class should have three methods named get, put, delete
+   - The BreedList class should have two methods named get and post
+   - refer to Chapter 2 of the recommended text or here for examples
   6. add the appropriate url patterns to the urls.py file to accept all the patterns and map them to the correct controller
   7. test your endpoints with POSTMAN/ web browser (browsable APIs), taking screenshots of each type of request. There should be 5 requests total for each type of model, for a    total of 10 tests and screenshots.
-    - GET (list), POST to /api/dogs/
-    - GET, PUT, DELETE to /api/dogs/<id>
-    - GET (list), POST to /api/breeds/
-    - GET, PUT, DELETE to /api/breeds/<id> trainability (an integer field) [should accept values from 1-5]
+   - GET (list), POST to /api/dogs/
+   - GET, PUT, DELETE to /api/dogs/<id>
+   - GET (list), POST to /api/breeds/
+   - GET, PUT, DELETE to /api/breeds/<id> trainability (an integer field) [should accept values from 1-5]
     
